@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.util.Log;
 
 public class AlarmReceiver extends BroadcastReceiver {
- String TAG="ALARM_APP";
+    String TAG="ALARM_APP";
     @Override
     public void onReceive(Context context, Intent intent) {
         Log.d(TAG, "onReceive: Alarm received");
